@@ -115,18 +115,18 @@ font-size: 1.2rem;
 
 @media (max-width: 1000px) {
     .nav-item {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
     .navbar-nav{
         margin-left: 40%;
     }
 
     #navbar-title {
-        font-size: 3.5rem;
+        font-size: 4rem;
     }
 
     #navbar-button{
-        padding: 15px 20px;
+        padding: 25px 30px;
     }
     .about-description {
         font-size: 2rem;
