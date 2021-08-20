@@ -97,6 +97,10 @@ font-size: 1.2rem;
      background-color: rgb(189, 183, 183);
  }
 
+ .rules-heading {
+    font-size: 2.5rem;
+}
+
  .carousel-item {
     padding: 7% 15% 7% 15%;
 }
@@ -111,6 +115,31 @@ font-size: 1.2rem;
 
 .last {
     padding-bottom: 2%;
+}
+
+.contact-heading {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.faculty-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.faculty-list {
+    font-size: 1rem;
+    font-weight: bold;
+}
+
+.student-heading {
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+.student-list {
+    font-size: 1rem;
+    font-weight: bold;
 }
 
 @media (max-width: 1000px) {
@@ -157,11 +186,36 @@ font-size: 1.2rem;
     }
 
     .rules-list-items{
-        font-size: 1.6rem;
+        font-size: 2.5rem;
     }
 
     .rules-heading {
-        font-size: 2.8rem;
+        font-size: 3.5rem;
+    }
+
+    .contact-heading {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
+    .faculty-heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .faculty-list {
+        font-size: 1rem;
+        font-weight: bold;
+    }
+    
+    .student-heading {
+        font-size: 1.5rem;
+        font-weight: bold;
+    }
+    
+    .student-list {
+        font-size: 1rem;
+        font-weight: bold;
     }
 
 }
