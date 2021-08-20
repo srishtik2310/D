@@ -1,0 +1,47 @@
+.navbar-nav {
+    margin-left: 46%;
+}
+.nav-item {
+    padding: 0.5vw;
+}
+
+.navbar-brand {
+    padding-left: 2%;
+    padding-right: 20%;
+}
+
+.GIT-logo {
+    margin-left: auto;
+    max-width: 80%;
+    height: auto;
+}
+
+.IEI-logo {
+    margin-left: auto;
+    max-width: 80%;
+    height: auto;
+}
+
+.tagline{
+    text-align: center;
+    font-size: 2.5vw;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-shadow: 0 0 3px #f9f5f5, 0 0 5px #121111;
+}
+
+#home {
+    padding: 2%;
+    padding-top: 5%;
+}
+
+.first-section {
+    background-image: url("images/bg-image.jpeg");
+  background-color: rgba(255, 251, 251, 0.749);
+  background-blend-mode: lighten;
+}
+
+.container-fluid {
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
