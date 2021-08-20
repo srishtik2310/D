@@ -115,7 +115,7 @@ font-size: 1.2rem;
 
 @media (max-width: 1000px) {
     .nav-item {
-        font-size: 1.8rem;
+        font-size: 2rem;
     }
     .navbar-nav{
         margin-left: 40%;
@@ -146,22 +146,22 @@ font-size: 1.2rem;
 
     .quiz-img {
         margin-right: 2%;
-        width: 25%;
+        width: 40%;
         float: left;
     }
     
     .datasheet-img {
         margin-left: 30px;
-        width: 25%;
+        width: 40%;
         float: right;
     }
 
     .rules-list-items{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .rules-heading {
-        font-size: 2.5rem;
+        font-size: 2.8rem;
     }
 
 }
