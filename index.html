@@ -12,28 +12,31 @@
 <body>
     <!-- Nav Bar -->
     <section class="first-section">
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
             <div class="container-fluid">
-            <a class="navbar-brand" href="#">Datasheet Contest</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <a class="navbar-brand" id="navbar-title" href="#">Datasheet Contest</a>
+            <button class="navbar-toggler" id="navbar-button" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0 ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#about">About</a>
+                    </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#Rules">Rules</a>
+                    <a class="nav-link" href="#rules">Rules</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Register</a>
+                    <a class="nav-link" href="https://forms.gle/y1eNSEAGPzCZJAbV7">Register</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#" >Take Quiz</a>
+                    <a class="nav-link" href="https://forms.gle/3yu2v9KgW52PEESA6" >Take Quiz</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Results</a>
+                    <a class="nav-link" href="results.html">Results</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="#">Contact us</a>
+                    <a class="nav-link" href="#footer">Contact us</a>
                 </li>
                 </ul>
             </div>
@@ -52,9 +55,107 @@
           </div>
     </section>
 
-    <section class="Rules">
+    <section class="about" id="about">
+        <div class="about-container">
+            <p class="about-heading">About the Contest</p>
+            <p class="about-info">The contest is designed to test the Electrical and Electronics knowledge of participants. Contest is conducted in two phases.
+                The first phase is a filtration round which consists of on online quiz and second phase consists of datasheet inference and explanation.
+            </p>
+            <div class="about-row">
+                <h3 class="about-h3">Quiz Round</h3>
+                <img class="quiz-img" src="images/quiz.png" alt="circuit-img"> <br>
+                <p class="about-description">This is a online quiz round for filtration purspose. Participants are tested
+                    on their knowledge about Analog circuits, Logic design, transformers, machines etc. Quiz has 2 sections.
+                    The participants are required to complete both the sections of quiz in given time frame.
 
+                </p>
+            </div>
+            <div class="about-row">
+                
+                <h3 class="about-h3">Datasheet Inference Round</h3>
+                <img class="datasheet-img" src="images/encrypted-data.png" alt="programming-img"> <br>
+                <p class="about-description">This is the final round. Participants are expected to know basic 
+                    datasheet inference skills. Expect the unexpected in this round.</p>
+            </div>
+        </div>
     </section>
+
+    <section id="rules">
+        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel" data-ride="false" data-pause="hover">
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <h2>General Rules</h2>
+                <ul>
+                    <li class="rules-list-items">All the rounds will be conducted Online.</li>
+                    <li class="rules-list-items">  The Contest is open for Students in other colleges as well.</li> 
+                    <li class="rules-list-items">  It is a Team event and maximum number of participants per team is 2.</li>
+                    <li class="rules-list-items"> The Team members must be from the same college and there is no restriction about  <br> the semesters in which they are in i.e, 
+                           a student from 2nd sem can form a team with 6th sem as well.</li>
+                    <li class="rules-list-items"> Participants are requested to join the WhatsApp group after registering for the contest.</li>
+                    <li class="rules-list-items">The contest is open for students from 1st, 2nd and 3rd year. </li> 
+                    <li class="rules-list-items"> This contest is open to all who belong to ECE and EEE departments. </li>
+                </ul>
+            </div>
+            <div class="carousel-item">
+                <h2>Quiz Round rules</h2>
+                <ul>
+                    <li class="rules-list-items">The quiz will be conducted online. </li>
+                    <li class="rules-list-items">Participation in the quiz is free and open to all who belong to ECE and EEE departments.</li> 
+                    <li class="rules-list-items">Quiz is designed for 30 Marks comprising of 1 and 2 mark questions.</li>
+                    <li class="rules-list-items">The top scoring teams will qualify for the next round. (Top-10).</li>
+                    <li class="rules-list-items">Participants need to attempt quiz by going to "Take quiz" section of the website</li>
+                    <li class="rules-list-items">The quiz link will be closed after 4 hours, participants have to answer the quiz within this time duration. </li> 
+                    <li class="rules-list-items">The Time limit for the quiz is 1 hour. </li>
+                </ul>
+            </div>
+            <div class="carousel-item">
+                <h2>Datasheet Infererence Round Rules</h2>
+                <ul>
+                    <li class="rules-list-items">All the participants are requested to download the Google Meet application on their devices and be conversant with its use. </li>
+                    <li class="rules-list-items">The Google Meet link for the event will be updated in results section of the website.</li> 
+                    <li class="rules-list-items">All the participants are requested to ensure the internet availability throughout the duration of event as no concession of any sort will be granted on this ground.</li>
+                    <li class="rules-list-items">This Round is splitted into two phases.(Top-10).</li>
+                    <li class="rules-list-items">Initially a Generalized topic will be given to the participants and then the participants will have to find a datasheet on this and then present it.</li>
+                    <li class="rules-list-items">In the second phase, Datasheet will be provided to the participants. 
+                        Participants have to read the datasheet, analyze it and be prepared for the question/answer round.</li> 
+                    <li class="rules-list-items">The preparation time for the datasheet analysis is 15 min.
+                        The participants are then expected to describe the details of the datasheet within 15 min. The Judges will then pose their questions.</li>
+                    <li class="rules-list-items">The presenters must wear the identity cards issued by their respective colleges all the times during the event.</li>
+                </ul>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+        </div>
+  </section>
+
+  <footer class="white-section" id="footer">
+      <h3 style="padding-bottom: 2%;">In case of any difficulty feel free to contact us</h3>
+      <h5>Faculty Coordinator</h5> 
+      <ul>
+          <li><p>Prof. Balwant K Patil - 9972403678</p></li>
+      </ul>
+      
+
+      <h5>Student Coordinators</h5>
+      <ul>
+          <li>Anchit Patil - 9739262422</li>
+           <li>Satish Bilagi - 7022481636</li>
+           <li>Srishtik Bhandarkar - 8792274525</li>
+           <li class="last">Sushil Patil - 8618912612</li>
+      </ul>
+      
+
+    <p style="text-align: center;">© Copyright 2021 Srishtik Bhandarkar</p>
+
+  </footer>
+
 </body>
 
 </html>
