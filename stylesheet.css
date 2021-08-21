@@ -1,10 +1,11 @@
 .navbar-nav {
-    margin-left: 25%;
+    margin-left: auto;
 }
 
 .nav-item {
     padding: 0.5rem;
     font-size: 1.2rem;
+    color: white;
 }
 
 .navbar-brand {
@@ -125,6 +126,7 @@ font-size: 1.2rem;
 .faculty-heading {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #11999E;
 }
 
 .faculty-list {
@@ -135,6 +137,7 @@ font-size: 1.2rem;
 .student-heading {
     font-size: 1.5rem;
     font-weight: bold;
+    color: #11999E;
 }
 
 .student-list {
