@@ -1,3 +1,4 @@
+/* Main page */
 .navbar-nav {
     margin-left: auto;
 }
@@ -20,6 +21,7 @@
 #navbar-button{
     padding: 15px 20px;
 }
+
 
 .GIT-logo {
     margin-left: auto;
@@ -52,7 +54,6 @@
   background-blend-mode: lighten;
 }
 
-
 .about {
     margin:5%;
     margin-bottom: 2%;
@@ -71,6 +72,7 @@
     width: 15%;
     float: left;
 }
+
 .about-description {
 font-size: 1.2rem;
 }
@@ -91,7 +93,7 @@ font-size: 1.2rem;
 
  .about-heading {
      font-weight: bold;
-     font-size: 1.5rem;
+     font-size: 2rem;
  }
 
  #rules {
@@ -220,10 +222,44 @@ font-size: 1.2rem;
         font-size: 1rem;
         font-weight: bold;
     }
+    .dropdown-item {
+        font-size: 2.1rem;
+    }
 
 }
 
 .results-h1 {
     text-align: center;
-    padding: 5% 5% 5% 5%;
+    padding: 2% 2% 2% 2%;
+    color: #10b7bd;
 }
+
+
+/* Notifications page */
+
+.notice {
+    padding: 15px;
+    background-color: #fafafa;
+    border-left: 6px solid #7f7f84;
+    margin-bottom: 10px;
+    -webkit-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+       -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+            box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
+}
+.notice-sm {
+    padding: 10px;
+    font-size: 80%;
+}
+.notice-lg {
+    padding: 35px;
+    font-size: large;
+}
+.notice-success {
+    border-color: #80D651;
+}
+.notice-success>strong {
+    color: #80D651;
+}
+
+
+
