@@ -226,6 +226,16 @@ font-size: 1.2rem;
         font-size: 2.1rem;
     }
 
+    .notice-success {
+        border-color: #80D651;
+        font-size: 2rem;
+    }
+    .notice-success>strong {
+        color: #80D651;
+        font-size: 2.2rem;
+    }
+    
+
 }
 
 .results-h1 {
