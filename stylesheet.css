@@ -236,6 +236,10 @@
         color: #80D651;
         font-size: 2.2rem;
     }
+    .onesignal-customlink-container {
+        padding: 3%;
+        font-size: 1.5rem;
+    }
 }
 
 .results-h1 {
@@ -265,5 +269,9 @@
     color: #80D651;
 }
 
+
+.onesignal-customlink-container {
+    padding: 3%;
+}
 
 
