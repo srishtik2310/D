@@ -258,17 +258,20 @@
 
 .notice-success {
     border-color: #80D651;
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 .notice-success>strong {
     color: #80D651;
+    font-size: 2.2rem;
 }
 
 .notice-danger {
     border-color: red;
+    font-size: 2rem;
 }
 .notice-danger>strong {
     color: red;
+    font-size: 2.2rem;
 }
 
 
