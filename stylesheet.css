@@ -283,7 +283,8 @@
 }
 
 .onesignal-customlink-container {
-    padding: 2%;
+    padding-top: 2%;
+    padding-bottom: 0px;
 }
 
 
