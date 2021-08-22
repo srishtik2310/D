@@ -67,14 +67,24 @@
     margin: 5% auto 15% auto;
 }
 
+.about-heading {
+    font-weight: bold;
+    font-size: 2rem;
+    color: #11999E;
+}
+
+.about-description {
+    font-size: 1.2rem;
+}
+
+.about-info{
+    font-size:1.2rem;
+}
+
 .quiz-img {
     margin-right: 2%;
     width: 15%;
     float: left;
-}
-
-.about-description {
-font-size: 1.2rem;
 }
 
 .datasheet-img {
@@ -83,17 +93,8 @@ font-size: 1.2rem;
     float: right;
 }
 
-.about-info{
-    font-size:1.2rem;
-}
-
  p{
     font-size: 1rem;
- }
-
- .about-heading {
-     font-weight: bold;
-     font-size: 2rem;
  }
 
  #rules {
@@ -105,7 +106,7 @@ font-size: 1.2rem;
 }
 
  .carousel-item {
-    padding: 7% 15% 7% 15%;
+    padding: 3% 12% 3% 12%;
 }
 
 .rules-list-items{
@@ -199,27 +200,27 @@ font-size: 1.2rem;
     }
 
     .contact-heading {
-        font-size: 2rem;
+        font-size: 2.5rem;
         font-weight: bold;
     }
     
     .faculty-heading {
-        font-size: 1.5rem;
+        font-size: 2rem;
         font-weight: bold;
     }
     
     .faculty-list {
-        font-size: 1rem;
-        font-weight: bold;
-    }
-    
-    .student-heading {
         font-size: 1.5rem;
         font-weight: bold;
     }
     
+    .student-heading {
+        font-size: 2rem;
+        font-weight: bold;
+    }
+    
     .student-list {
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: bold;
     }
     .dropdown-item {
@@ -229,13 +230,12 @@ font-size: 1.2rem;
     .notice-success {
         border-color: #80D651;
         font-size: 2rem;
+        padding:2%;
     }
     .notice-success>strong {
         color: #80D651;
         font-size: 2.2rem;
     }
-    
-
 }
 
 .results-h1 {
@@ -248,7 +248,7 @@ font-size: 1.2rem;
 /* Notifications page */
 
 .notice {
-    padding: 15px;
+    padding: 2%;
     background-color: #fafafa;
     border-left: 6px solid #7f7f84;
     margin-bottom: 10px;
@@ -256,16 +256,10 @@ font-size: 1.2rem;
        -moz-box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
             box-shadow: 0 5px 8px -6px rgba(0,0,0,.2);
 }
-.notice-sm {
-    padding: 10px;
-    font-size: 80%;
-}
-.notice-lg {
-    padding: 35px;
-    font-size: large;
-}
+
 .notice-success {
     border-color: #80D651;
+    font-size: 1.5rem;
 }
 .notice-success>strong {
     color: #80D651;
