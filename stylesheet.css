@@ -281,6 +281,24 @@
     color: red;
     font-size: 2.2rem;
 }
+.notice-light {
+    border-color:blue;
+    font-size: 2rem;
+}
+.notice-light>strong {
+    color: blue;
+    font-size: 2.2rem;
+}
+
+.blink-me {
+    animation: blinker 1s linear infinite;
+  }
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
 
 
 
